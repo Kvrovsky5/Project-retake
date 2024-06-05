@@ -4,6 +4,7 @@
 1. [Opis projektu](#opis-projektu)
 2. [Funkcjonalności](#funkcjonalności)
 3. [Instrukcje obsługi](#instrukcje-obsługi)
+    - [obsługa](#obsługa)
     - [Wymagania](#wymagania)
     - [Instalacja](#instalacja)
     - [Uruchomienie](#uruchomienie)
@@ -34,6 +35,28 @@ Projekt Menedżer Zadań jest aplikacją do zarządzania zadaniami i użytkownik
    - Możliwość zapisywania stanu zadań i użytkowników do pliku JSON oraz ładowanie tych danych z pliku.
 
 ## Instrukcje obsługi
+
+### obsługa
+Obsługa aplikacji
+Dodawanie użytkowników:
+
+Kliknij przycisk "Dodaj użytkownika" i wprowadź nazwę nowego użytkownika.
+Dodawanie zadań:
+
+Kliknij przycisk "Dodaj zadanie", wypełnij formularz, podając nazwę, opis i przypisanie do użytkownika, a następnie kliknij "Dodaj Zadanie".
+Zmiana statusu zadań:
+
+Kliknij prawym przyciskiem myszy na wybrane zadanie i wybierz nowy status z menu kontekstowego.
+Edycja zadań:
+
+Kliknij prawym przyciskiem myszy na wybrane zadanie i wybierz "Edytuj zadanie", a następnie wprowadź zmiany i kliknij "Zapisz Zmiany".
+Generowanie raportu:
+
+Kliknij przycisk "Wygeneruj raport", aby zobaczyć raport zadań.
+Zapis i odczyt danych:
+
+Kliknij przycisk "Zapisz zadania do formatu JSON", aby zapisać dane do pliku.
+Kliknij przycisk "Załaduj zadania z pliku tasks.json", aby załadować dane z pliku
 
 ### Wymagania
 - Java 8 lub nowsza
